@@ -98,6 +98,14 @@ streamlit run app.py
 ```
 
 ---
+# Deployement link
+https://aistudyassistantagent-8x6p2anckdkkrhxan9dqv8.streamlit.app/
+
+# Screenshots
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/01ce7917-ea03-4a16-ba8d-3258d4a7245e" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/94f53011-209e-4cd8-9406-6743a9df5a4e" />
+
+
 
 # 📦 requirements.txt
 
