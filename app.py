@@ -162,7 +162,7 @@ if uploaded_file is not None:
     # =========================================
 
     model = ChatGoogleGenerativeAI(
-    model="gemini-1.5-flash",
+    model="gemini-2.5-flash",
     google_api_key=st.secrets["GOOGLE_API_KEY"],
     temperature=0.3
 )
@@ -239,7 +239,7 @@ if uploaded_file is not None:
             in simple understandable points.
 
             Content:
-            {text[:10000]}
+            {text[:3000]}
             """
 
             response = model.invoke(
@@ -267,7 +267,7 @@ if uploaded_file is not None:
             Also provide correct answers.
 
             Content:
-            {text[:10000]}
+            {text[:3000]}
             """
 
             response = model.invoke(
