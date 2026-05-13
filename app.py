@@ -162,9 +162,10 @@ if uploaded_file is not None:
     # =========================================
 
     model = ChatGoogleGenerativeAI(
-        model="gemini-2.5-flash",
-        temperature=0.3
-    )
+    model="gemini-1.5-flash",
+    google_api_key=st.secrets["GOOGLE_API_KEY"],
+    temperature=0.3
+)
 
     # =========================================
     # Sidebar Features
